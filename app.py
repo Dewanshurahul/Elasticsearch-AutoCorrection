@@ -24,6 +24,7 @@ def ajax_call():
     # return json response to elasticsearch
     return response.json()
 
+
 # Run Flask App
 if __name__ == "__main__":
     app.run(debug=True, port=5000)
